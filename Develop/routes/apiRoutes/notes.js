@@ -3,12 +3,12 @@ const path = require('path');
 const notes = require ('../../db/db.json');
 const fs = require('fs');
 
-router.get('/notes', (res, req) => {
+router.get('/notes', (req, res) => {
     let notes = notes;
     res.json(notes);
 });
 
-router.post('/notes', (res,req) => {
+router.post('/notes', (req, res) => {
     let note = req.body;
     //function with outside npm library to create unique id for each note
     notes.push(note);
