@@ -1,20 +1,16 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
+      "title": "Note Title",
+      "text": "note text"
     },
     {
-      "title": "Hello",
-      "text": "New note"
+      "title": "new note",
+      "text": "new new new"
     },
     {
-      "title": "Hello",
-      "text": "New note"
-    },
-    {
-      "title": "New Note",
-      "text": "new note"
+      "title": "new note",
+      "text": "new new new"
     }
   ]
 }
