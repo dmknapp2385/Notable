@@ -14,7 +14,8 @@ router.post('/notes', (req, res) => {
         path.join(__dirname, '../../db/db.json'),
         JSON.stringify({ notes }, null, 2)
     
-    );   
+    )
+    return notes;
 });
 
 module.exports = router;
