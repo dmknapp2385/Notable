@@ -11,6 +11,18 @@
     {
       "title": "new note",
       "text": "new new new"
+    },
+    {
+      "title": "This is a new note",
+      "text": "This is new note text"
+    },
+    {
+      "title": "Note Title newest",
+      "text": "note text test"
+    },
+    {
+      "title": "Note Title newest",
+      "text": "the lastest test"
     }
   ]
 }
