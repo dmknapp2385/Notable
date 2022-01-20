@@ -1,28 +1,9 @@
 {
   "notes": [
     {
-      "title": "Note Title",
-      "text": "note text"
-    },
-    {
-      "title": "new note",
-      "text": "new new new"
-    },
-    {
-      "title": "new note",
-      "text": "new new new"
-    },
-    {
-      "title": "This is a new note",
-      "text": "This is new note text"
-    },
-    {
-      "title": "New Test 2",
-      "text": "testing text"
-    },
-    {
-      "title": "testing",
-      "text": "test test"
+      "title": "New note",
+      "text": "testing",
+      "id": "03350c28-864d-41a1-b48c-df3b9409291e"
     }
   ]
 }
