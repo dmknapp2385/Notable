@@ -4,10 +4,13 @@ const {notes} = require ('../../db/db.json');
 const fs = require('fs');
 const {v4 : uuidv4} = require('uuid');
 
+// Get notes from json file and send to note.html
 router.get('/notes', (req, res) => {
     res.send(notes);
 });
 
+
+// get note and save to json file
 router.post('/notes', (req, res) => {
     let note = req.body;
     note.id = uuidv4();
@@ -20,6 +23,8 @@ router.post('/notes', (req, res) => {
     res.end();
 });
 
+
+//delete note from json file and reload html
 router.delete('/notes/:id', (req, res) => {
     const findId = (note) =>  note.id === req.params.id;
     const remove = notes.findIndex(findId);

@@ -3,14 +3,14 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
-const path = require('path');
 
+//Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
 
-
+//Conect to routers
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
